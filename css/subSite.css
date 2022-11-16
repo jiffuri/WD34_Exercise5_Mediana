@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+/*  NAVE START */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+header nav{
+    /* text-align: center;  align icon in center */
+}
+header nav ul{
+    
+}
+header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav ul li a img{
+    width: 40px;
+    height: 40px;
+}
+/*  NAV END */
+.myWrapper2{
+    margin-left: 90px;
+}
+.angCard{
+    width: 70%; 
+    height: auto;
+    align-items: center;
+    background: rgb(145, 253, 145);
+    border-radius: 40px 40px 40px 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    
+}
+.imahe{
+    align-items: center;
+}
+.imahe img{
+    width: 90%;
+    height: 300px;
+}
+.pangalan{
+    font-family: 'Bree Serif', serif;
+}
+.adSideBar{
+    position: absolute;
+    top: 110px;
+    right: 70px;
+    background: rgb(168, 253, 146);
+    height: 1000px;
+    width: 220px;
+    border-radius: 25px;
+}

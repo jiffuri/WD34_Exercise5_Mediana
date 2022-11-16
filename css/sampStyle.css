@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ms+Madi&display=swap');
+
+*{
+    background: rgb(131, 241, 131);
+    margin: 0;
+
+}
+.myWrapper{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+header nav{
+    /* text-align: center;  align icon in center */
+}
+header nav ul{
+    
+}
+header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav ul li a img{
+    width: 40px;
+    height: 40px;
+}
+.myBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr 1fr .4fr 1fr;
+    grid-template-areas: "myHead" "unangBlock" "pangalawangBlock" "b3";
+}
+.myHead{
+    grid-area: myHead;
+
+
+}
+.unangBlock{
+    grid-area: unangBlock;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 235px 235px 235px 235px;
+    grid-template-areas: "spotNgTurista" "makasaysayangLugar" "pagkain" "pagdiriwang";
+    -ms-grid-row-align: center;
+}
+.unangBlock a{
+    text-decoration: none;
+}
+.spotNgTurista{
+    grid-area: spotNgTurista;
+
+}
+.makasaysayangLugar{
+    grid-area: makasaysayangLugar;
+
+}
+.pagkain{
+    grid-area: pagkain;
+ 
+}
+.pagdiriwang{
+    grid-area: pagdiriwang;
+
+}
+.firstBlock44{
+    margin: 30px 50px 0px 50px;
+    display: flex;
+    border-style: none;
+    border-radius: 25px;
+    background: whitesmoke;
+}
+.firstBlock44 img{ 
+    width: 30%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.angdetalye{
+    width: 70%;
+    height: 100%;
+    padding: 40px 50px 0px 50px;
+    background: whitesmoke;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.pangalawangBlock{
+    grid-area: pangalawangBlock;
+    width: 100%;
+
+}
+.b3{
+    grid-area: b3;
+    padding-top: 100px;
+    padding-left: 73px;
+    
+}
+.myHead img{
+    width: 100%;
+}
+.secondName{
+    float: inline-start;
+    position: absolute;
+    background: none;
+    font-family: 'Ms Madi', cursive;
+    font-size: 77px;
+    transform: rotate(-12deg);
+	text-align: center;
+	color: #dbffad;
+    text-shadow: 1px 1px 0px #b3f55e, 
+                  2px 2px 0px #5acc37, 
+                  3px 3px 0px #0f7006, 
+                  4px 4px 0px #03f869, 
+                  5px 5px 0px #aff804, 
+                  6px 6px 0px #747272, 
+                  7px 7px 0px #302b2c, 
+                  8px 8px 0px #423234, 
+                  9px 9px 0px #080707;
+/*
+text-shadow: 1px 1px 0px #eb452b, 
+                  2px 2px 0px #efa032, 
+                  3px 3px 0px #46b59b, 
+                  4px 4px 0px #017e7f, 
+                  5px 5px 0px #052939, 
+                  6px 6px 0px #c11a2b, 
+                  7px 7px 0px #c11a2b, 
+                  8px 8px 0px #c11a2b, 
+                  9px 9px 0px #c11a2b;
+*/
+}
+.mgaCards{
+    display: inline-flex;
+    padding: 40px 20px 20px 73px;
+}
+.myTopCard{
+    width: auto;
+    height: 300px;
+}
+.myBottomCard{
+    background-color: azure;
+    width: 200px;
+    height: 70px;
+
+}
+.angCard{
+    margin-right: 20px;
+}
+.angCard a{
+    text-decoration: none;
+}
+table tr td img{
+    width: 100%;
+    height: 100%;
+
+}
+table{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+table tr td h1{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 33px;
+    background: none;
+}
+#commentArea{
+    background-color: honeydew;
+    width: 500px;
+    height: 150px;
+}
+.angKomento{
+    text-align: center;
+}
+table,tr,td{
+    border-radius: 30px;
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+.commentDown{
+    margin-top: 100px;
+    margin-right: 50px;
+    align-items: left;
+}
+.commentDown dl dt,dd{
+    background: whitesmoke;
+}
+.commentDown dt{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.commentDown dd{
+    border-radius: 0px 50px 50px 50px;
+    padding-left: 50px;
+    height: 80px;
+}
+.commentDown dl dt img{
+    background: none;
+}
