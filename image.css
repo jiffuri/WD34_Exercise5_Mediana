@@ -1,0 +1,74 @@
+
+.bulaloImage{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    display: none;
+    z-index: 99;    
+}
+.sisigImage{
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    display: none;
+    z-index: 99;    
+}
+.karekareImage{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    display: none;
+    z-index: 99;
+}    
+.kansiImage{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    display: none;
+    z-index: 99;    
+}
+.lechonImage{
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: 210px;
+    left: 60px;
+    display: none;
+    z-index: 99;    
+}
+.sinigangImage{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 210px;
+    left: 60px;
+    display: none;
+    z-index: 99;    
+}
+
+#food1:hover + .bulaloImage{
+    display: block;
+}
+#sisig:hover + .sisigImage{
+    display: block;
+}
+#kansi:hover + .kansiImage{
+    display: block;
+}
+#lechon:hover + .lechonImage{
+    display: block;
+}
+#karekare:hover + .karekareImage{
+    display: block;
+}
+#sinigang:hover + .sinigangImage{
+    display: block;
+}
